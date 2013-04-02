@@ -19,7 +19,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # Kernel 
-TARGET_KERNEL_SOURCE := kernel/huawei/G300
+TARGET_KERNEL_SOURCE := kernel/huawei/msm7x27a
 TARGET_KERNEL_CONFIG := c8812_defconfig
 
 # Vold
