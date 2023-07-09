@@ -1,18 +1,19 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/cdma.mk)
+$(call inherit-product, vendor/omni/config/cdma.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := c8812
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_mini_phone.mk)
+#$(call inherit-product, vendor/cm/config/common_mini_phone.mk)
+$(call inherit-product, vendor/omni/config/phone-xxhdpi-2048-hwui-memory.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/huawei/c8812/c8812.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := c8812
-PRODUCT_NAME := cm_c8812
+PRODUCT_NAME := omni_c8812
 PRODUCT_BRAND := huawei
 PRODUCT_MODEL := HUAWEI C8812
 PRODUCT_MANUFACTURER := huawei

@@ -1,2 +1,2 @@
-add_lunch_combo cm_c8812-eng
-add_lunch_combo cm_c8812-userdebug
+add_lunch_combo omni_c8812-eng
+add_lunch_combo omni_c8812-userdebug

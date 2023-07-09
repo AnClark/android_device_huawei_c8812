@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/c8812.mk
+    $(LOCAL_DIR)/omni_c8812.mk
